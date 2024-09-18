@@ -3,8 +3,6 @@ const About = () => {
     'https://cdn.prod.website-files.com/663943bed8a37337f94a3f67/6647873f3ff3ce624cfa79d5_Home_1.webp';
   const aboutImg2 =
     'https://cdn.prod.website-files.com/663943bed8a37337f94a3f67/6647873f9a00a00b9980599a_Home_2.webp';
-  const aboutImg3 =
-    'https://cdn.prod.website-files.com/663943bed8a37337f94a3f67/6647873f9a00a00b9980599a_Home_3.webp';
   return (
     <>
       <section id="about" className="about_container">
@@ -50,7 +48,6 @@ const About = () => {
           <img
             src={aboutImg2}
             alt="about-img-2 "
-            data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
             className="about-img-container_img2 img vertical-square"
             data-aos="fade-down"

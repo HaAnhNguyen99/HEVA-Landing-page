@@ -7,7 +7,7 @@ import Pricing from './components/pricing/pricing';
 import Footer from './components/footer/footer';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Scrollbar from 'smooth-scrollbar';
 
 function App() {
