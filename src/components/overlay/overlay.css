@@ -1,0 +1,35 @@
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+.delayed-1 {
+  animation-delay: 0.1s;
+}
+.delayed-2 {
+  animation-delay: 0.2s;
+}
+.delayed-3 {
+  animation-delay: 0.3s;
+}
+.delayed-4 {
+  animation-delay: 0.4s;
+}
+
+.overlay-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
