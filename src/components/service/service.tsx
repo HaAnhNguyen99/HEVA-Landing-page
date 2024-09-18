@@ -15,6 +15,8 @@ const Service = () => {
             src="https://i.pinimg.com/originals/00/83/34/008334ae8224a582cf77c6518ef089c5.png"
             alt=""
             className="w-full h-full object-cover rounded-[1.25rem]"
+            data-aos="fade-down"
+            data-aos-duration="1000"
           />
         </div>
         <h3 className="font-EditorialNew">Simplicity is key. Support is power.</h3>

@@ -1,5 +1,4 @@
 const Paragragh = ({ bottom }: { bottom: string }) => {
-  console.log(bottom);
   return (
     <>
       <div className={`paragraph absolute bottom-${bottom}  overflow-auto`}>

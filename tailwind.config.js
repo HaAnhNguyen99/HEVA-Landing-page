@@ -1,5 +1,3 @@
-import { transform } from 'typescript';
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -232,7 +230,7 @@ export default {
         '.col': {
           display: 'flex',
           'align-items': 'center',
-          'justify-content': 'center',
+          'justify-content': 'flex-start',
         },
         '.index': {
           'font-size': '1.15rem',
@@ -300,18 +298,6 @@ export default {
         '.bottom-24': {
           bottom: '16px',
         },
-        '.home_hero_btn_bg': {
-          transition: 'all 0.3s ease-in-out',
-        },
-        '@keyframes bounded': {
-          '0%': { transform: 'scale(0.9)' },
-          '50%': { transform: 'scale(0.95)' },
-          '100%': { transform: 'scale(1)' },
-        },
-        '.home_hero_btn_bg:hover': {
-          position: 'relative',
-          animation: 'bounded 0.6s ease-in-out',
-        },
         '.home_hero_btn_bg > *': {
           transition: 'all 0.3s ease-in-out',
         },
@@ -319,7 +305,7 @@ export default {
           color: 'white',
         },
         '.home_hero_btn_bg:hover > .home_hero_btn_bg_hover': {
-          padding: '96px',
+          padding: '90px',
           zIndex: '20',
         },
       };

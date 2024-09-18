@@ -7,7 +7,7 @@ const Pricing = () => {
       <div className="pricing-content xl:grid-1 md:flex-center md:gap-10 sm:gap-10 md:flex-col gap-10">
         <img
           data-aos="fade-right"
-          data-aos-duration="5000"
+          data-aos-duration="1000"
           src="https://cdn.prod.website-files.com/663943bed8a37337f94a3f67/66478740b40605eeef1a1a7b_Home_Last.webp"
           alt=""
           className="rounded-2xl"
